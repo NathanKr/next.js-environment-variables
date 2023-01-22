@@ -20,7 +20,7 @@ export default function Home() {
         <span style={{color:'red'}}>but it is not working on the browser, not clear why</span>
       </h3>
       <p>process.env.NEXT_PUBLIC_ENV_KEY : {process.env.NEXT_PUBLIC_ENV_KEY}</p>
-      <p>get env from the server via /api/get-env</p>
+      <h3>Get env from the server via /api/get-env</h3>
       
     </div>
   );
