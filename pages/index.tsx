@@ -17,9 +17,11 @@ export default function Home() {
       </p>
       <h3>
         ENV_KEY is : 1 for production , 2 for preview , 3 for development{" "}
-        <span style={{color:'red'}}>but it is not working on the browser</span>
+        <span style={{color:'red'}}>but it is not working on the browser, not clear why</span>
       </h3>
       <p>process.env.NEXT_PUBLIC_ENV_KEY : {process.env.NEXT_PUBLIC_ENV_KEY}</p>
+      <p>get env from the server via /api/get-env</p>
+      
     </div>
   );
 }
