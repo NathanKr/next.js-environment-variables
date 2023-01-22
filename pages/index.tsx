@@ -7,7 +7,7 @@ export default function Home() {
       : "This is production\\preview so vercel environment variables should not be empty";
   return (
     <div className={styles.container}>
-      <p>{msg}</p>
+      <h3>{msg}</h3>
       <p>
         process.env.NEXT_PUBLIC_VERCEL_ENV :{process.env.NEXT_PUBLIC_VERCEL_ENV}
       </p>
