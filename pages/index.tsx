@@ -6,7 +6,7 @@ export default function Home() {
   const [envKey, setEnvKey] = useState<string | undefined>();
 
   useEffect(() => {
-    setVercelUrl(process.env.NEXT_PUBLIC_VERCEL_ENV);
+    setVercelUrl(process.env.NEXT_PUBLIC_VERCEL_URL);
     setEnvKey(process.env.NEXT_PUBLIC_ENV_KEY)
   }, []);
 
