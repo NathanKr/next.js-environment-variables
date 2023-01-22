@@ -14,6 +14,9 @@ export default function Home() {
       <p>
         process.env.NEXT_PUBLIC_VERCEL_URL :{process.env.NEXT_PUBLIC_VERCEL_URL}
       </p>
+      <h3>ENV_KEY is : 1 for production , 2 for preview , 3 for development</h3>
+      <p>process.env.NEXT_PUBLIC_ENV_KEY : {process.env.NEXT_PUBLIC_ENV_KEY}</p>
     </div>
+    
   );
 }
