@@ -16,7 +16,7 @@ export default function Home() {
       </p>
       <h3>ENV_KEY is : 1 for production , 2 for preview , 3 for development</h3>
       <p>process.env.NEXT_PUBLIC_ENV_KEY : {process.env.NEXT_PUBLIC_ENV_KEY}</p>
+      <p>process.env.ENV_KEY : {process.env.ENV_KEY}</p>
     </div>
-    
   );
 }
