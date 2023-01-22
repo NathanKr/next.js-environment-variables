@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
 type Data = {
-  vercel_url: string;
+  vercel_url: string; 
 };
 
 export default function handler(
